@@ -1,0 +1,188 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-image: url(https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg);
+    background-color: #cccccc;
+    background-size: cover;
+    overflow: overlay;
+   
+}
+
+.square {
+    height: 25%;
+  }
+  
+  .square:after {
+    content: "";
+    display: block;
+  
+  }
+.ratio{
+    margin: auto;
+        position: absolute;
+        display: block;
+        width: 60vh;
+        height: auto;
+        border-radius: 100%;
+}
+
+
+.holder{
+    z-index: -1;
+    padding-top: 4vw;
+    padding-bottom: 15vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 50vw;
+    height: 20vw;
+    margin-left: 85vh;
+    border-radius: 1.5vw;
+    text-align: center;
+}
+
+.name{
+    color: rgb(194, 194, 199);
+    font-size: 7vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+.desc{
+    color: rgb(194, 194, 199);
+    font-size: 3vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.head{
+    margin-top: 3vw;
+    color: rgb(0,0,0);
+    font-size: 7vw;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    -webkit-text-stroke-width: 0.05vw;
+    -webkit-text-stroke-color: white;
+}
+
+.project{
+    margin-top: 2vw;
+    height: 20vw;
+    width: 98vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: block;
+    text-align: center;
+    border-radius: 0.8vw;
+    overflow: overlay;
+}
+
+.container1 {
+    width: 100vw;
+    height: 50vw;
+    position: relative;
+    margin-top: 10vh;
+}
+
+
+.container{
+    background-image: url(https://icons.iconarchive.com/icons/thvg/wood-folders/512/Glossy-Developer-icon.png);
+    margin: 2vw;
+    height: 15vw;
+    width: 15vw;
+    display: inline-block;
+    
+    border-radius: 2vw;
+    position: relative;
+    
+    opacity: 0.8;
+    background-size: cover;
+    overflow: overlay;
+}
+
+.headC{
+    margin-top: 5vw;
+    color: rgb(0,0,0);
+    font-size: 5vw;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    -webkit-text-stroke-width: 0.03vw;
+    -webkit-text-stroke-color: white;
+}
+
+.Contact{
+    background-color: rgba(1, 1, 1, 0.7);
+    width: 55vw;
+    border-radius: 2vw;
+    margin: auto;
+    height: 8vw;
+    align-items: center;
+    top: 5%;
+    overflow: overlay;
+}
+
+.icons{
+    padding-top: 1vw;
+    margin: auto;
+    text-align: center;
+    overflow: overlay;
+}
+
+.tags {
+    color: white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1.5vw ;
+    
+}
+.anchor{
+    background-color: rgba(1, 1, 1, 0.7);
+    text-align: right;
+    height: 2.5vw;
+    margin-bottom: -2vw;
+}
+
+.project_{
+    margin-top: 2vw;
+    height: 20vw;
+    width: 75%;
+    background-color: rgba(0,0,0, 0.7);
+    display: block;
+    text-align: center;
+    margin: auto;
+    border-radius: 1vw;
+    padding-top: 5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    overflow: overlay;
+}
+
+.about{
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color: pink;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.up{
+    width:60px;
+	height:60px;
+}
+
+
+
+.p1{
+    margin-top: 1.5vw;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    font-family: 'Courier New', Courier, monospace;
+}
